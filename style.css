@@ -57,7 +57,7 @@ h1 {
   border: none;
   }
   .dropdown {
-    position: relative;
+    position: initial;
     display: inline-block;
   }
   .dropdown-content {
