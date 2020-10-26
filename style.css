@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
   
 body {
     background-color: #2f8ad4b9;
@@ -217,8 +221,8 @@ h1 {
 /* Projects Flip Card */
   .flip-card {
     background-color: transparent;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     perspective: 1000px;
   }
   .flip-card-inner {
@@ -226,7 +230,7 @@ h1 {
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.6s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
@@ -245,8 +249,9 @@ h1 {
     color: black;
   }
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    text-align: left;
+    background-color: #bbb;
+    color: rgb(0, 0, 0);
     transform: rotateY(180deg);
 }
 .box {
@@ -277,7 +282,7 @@ h1 {
   border-radius: 4px;
   -moz-border-radius: 4px;
   margin-top: 6px;
-  margin-left: 0.4%;
+  margin-left: 10%;   /*(0.4 initially)*/
   background-clip: padding-box;
   filter: alpha(opacity=97);
   width: 99%;
