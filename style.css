@@ -319,7 +319,12 @@ h1 {
 
 .tabcenter { 
   display:inline-block; 
-  margin-left: 420px; 
+  margin-left: 375px; 
+}
+
+.tabcontainer {
+  display:inline-block; 
+  margin-left: 225px; 
 }
 
 
