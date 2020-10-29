@@ -7,7 +7,6 @@ html {
 }
   
 body {
-    background-color: #2f8ad4b9;
     font-family: Helvetica, sans-serif;
     background: linear-gradient(141deg, #0fb8ad 0%, #91d1d8 51%, #2cb5e8 75%); 
 }
@@ -255,6 +254,7 @@ h1 {
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
 }
+
 .box {
   float: left;
   margin-left: 10px;
@@ -292,7 +292,6 @@ h1 {
 
 .typewriter h1 {
   overflow: hidden; 
-  /* border-right: .10em solid orange;  */
   white-space: nowrap; 
   margin: 0 auto; 
   animation: 
@@ -309,7 +308,6 @@ h1 {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  /* 50% { border-color: orange; } */
 }
 
 .tab { 
@@ -324,7 +322,13 @@ h1 {
 
 .tabcontainer {
   display:inline-block; 
-  margin-left: 225px; 
+  margin-left: 233px; 
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 
