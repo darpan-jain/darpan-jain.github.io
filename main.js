@@ -15,10 +15,11 @@
     document.documentElement.scrollTop = 0;
 }
 
+
+
 /*
 TODO:
 - Dynamic website background
 - Wordcloud for skills 
 - DB to drop in email for inquires
-
 */
