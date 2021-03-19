@@ -1,0 +1,138 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+    }
+    .tm-container-2 {
+        max-width: 1170px;
+    }
+}
+
+hr {
+    border-color: #666666;
+    max-width: 70%;
+}
+
+.tm-img-timeline {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (max-width: 584px) {
+.tm-timeline-connector {
+    width: 3px;
+    height: 55px;
+    }
+.tm-timeline-connector {
+    width: 55px;
+    height: 3px;
+    background-color: #404040;
+    }
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.tm-section-mb {
+    margin-bottom: 85px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.tm-timeline-description {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+    padding: 35px 40px;
+    max-width: 712px;
+}
+
+.tm-bg-dark {
+    background-color: #262626;
+}
+
+.tm-text-blue {
+    color: rgb(66, 66, 238);
+}
+
+.tm-text-green {
+    color: rgb(34, 155, 34);
+}
+
+.tm-text-orange {
+    color: orange;
+}
+
+.tm-text-yellow-green {
+    color: yellowgreen;
+}
+
+.tm-font-400 {
+    font-weight: 400;
+}
+
+.tm-bg-dark-light {
+    background-color: #404040;
+}
+
+@media (max-width: 767px) {
+.tm-timeline-item {
+    margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+.tm-timeline-item {
+    margin-left: 25px;
+    }
+.tm-timeline-item {
+    margin-left: 70px;
+    }
+}
+
+.tm-timeline-item-inner {
+    display: flex;
+    align-items: center;
+}
+
+.tm-timeline-connector {
+    width: 55px;
+    height: 3px;
+    background-color: #404040;
+}
+
+.tm-timeline-connector-vertical {
+    height: 60px;
+    width: 3px;
+    background-color: #404040;
+    margin-left: 260px;
+}
+
+@media (max-width: 991px) {
+.tm-timeline-item {
+    margin-left: 25px;
+    }
+.tm-timeline-item {
+    margin-left: 70px;
+    }
+}
