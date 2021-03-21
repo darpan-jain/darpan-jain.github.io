@@ -149,7 +149,7 @@ div {
 
 /* Style tab links */
 .tablink {
-    background-color: #555;
+    background-color: #333333;
     color: white;
     float: left;
     border: none;
@@ -162,7 +162,7 @@ div {
   }
   
   .tablink:hover {
-    background-color: #f7c552;
+    background-color: #f89624;
   }
   
   /* Style the tab content (and add height:100% for full page content) */
@@ -173,7 +173,5 @@ div {
     height: 500px;
   }
   
-  #Home {background-color: #333333;}
-  #News {background-color: #333333;}
-  #Contact {background-color: #333333;}
-  #About {background-color: #333333;} 
+  #Education {background-color: #333333;}
+  #Leadership {background-color: #333333;}
