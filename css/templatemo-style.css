@@ -364,8 +364,7 @@ p {
 
 
 #testimonial {
-	/* background-color: #f7c552; */
-	background-color: #f89624;
+	background-color: #333333;
 	text-align: center;
 	padding: 100px 0px;
 }
@@ -387,7 +386,8 @@ p {
 
 #testimonial .testimonials-item p {
 	font-size: 16px;
-	color: #9a9a9a;
+	/* color: #9a9a9a; */
+	color: rgb(90, 85, 85);
 	font-style: italic;
 	font-weight: 600;
 	background-color: #fff;
@@ -416,8 +416,8 @@ p {
 
 
 #blog {
-	/* background-image: url(../img/blog-bg.jpg); */
-	background-color: #333333;
+	background-image: url(../img/banner_bg.jpg);
+	/* background-color: #333333; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -427,7 +427,7 @@ p {
 	text-align: left;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	height: 582px;
 	margin-left: -100vh;
 	padding-left: 100vh;
@@ -485,11 +485,12 @@ p {
 }
 
 .tabs a:hover {
-  color: #f7c552;
+  color: rgb(91, 91, 207);
 }
 
 .tabs .active {
-  color: #f7c552;
+  color: rgb(91, 91, 207);
+
 }
 #first-tab-group {
 	margin-top: 30px;
