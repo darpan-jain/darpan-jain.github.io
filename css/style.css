@@ -232,3 +232,19 @@ div {
     margin-left: 75px;
     font-size: 38px;
   }
+
+  .grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+    height: 230px;
+    width: 100%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: left;
+    overflow: hidden;
+  }
+  .grow:hover {
+    height: 400px;
+  }
