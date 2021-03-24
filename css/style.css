@@ -235,8 +235,8 @@ div {
 
   .grow {
     padding: 5px 5px 5px 5px;
-    border-radius: 30px;
-    height: 230px;
+    border-radius: 22px;
+    height: 163px;
     width: 100%;
     float: left;
     position: relative;
@@ -246,5 +246,5 @@ div {
     overflow: hidden;
   }
   .grow:hover {
-    height: 400px;
+    height: 450px;
   }
