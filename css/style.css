@@ -246,5 +246,7 @@ div {
     overflow: hidden;
   }
   .grow:hover {
-    height: 450px;
+    height: auto;
+    padding-bottom: 30px;
+    padding-right: 35px;
   }
