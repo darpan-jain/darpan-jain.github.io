@@ -1,0 +1,252 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+    }
+    .tm-container-2 {
+        max-width: 1170px;
+    }
+}
+
+hr {
+    /* border-color: #666666;
+    max-width: 70%; */
+    margin: 40px 0px;
+    width: 100%;
+    align-self: center;
+    border-color: antiquewhite;
+    opacity: 0.4;
+}
+
+.tm-img-timeline {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (max-width: 584px) {
+.tm-timeline-connector {
+    width: 3px;
+    height: 55px;
+    }
+.tm-timeline-connector {
+    width: 55px;
+    height: 3px;
+    background-color: #404040;
+    }
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.tm-section-mb {
+    margin-bottom: 85px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.tm-timeline-description {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 20px;
+    padding: 35px 40px;
+    max-width: 712px;
+}
+
+.tm-bg-dark {
+    background-color: #262626;
+}
+
+.tm-text-blue {
+    color: rgb(91, 141, 233);
+}
+
+.tm-text-green {
+    color: rgb(34, 155, 34);
+}
+
+.tm-text-orange {
+    color: orange;
+}
+
+.tm-text-yellow-green {
+    color: yellowgreen;
+}
+
+.tm-text-red {
+    color: rgb(214, 109, 109);
+}
+
+.tm-font-400 {
+    font-weight: 400;
+}
+
+.tm-bg-dark-light {
+    background-color: #404040;
+}
+
+@media (max-width: 767px) {
+.tm-timeline-item {
+    margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+.tm-timeline-item {
+    margin-left: 25px;
+    }
+.tm-timeline-item {
+    margin-left: 70px;
+    }
+}
+
+.tm-timeline-item-inner {
+    display: flex;
+    align-items: center;
+}
+
+.tm-timeline-connector {
+    width: 55px;
+    height: 3px;
+    background-color: #404040;
+}
+
+.tm-timeline-connector-vertical {
+    height: 60px;
+    width: 3px;
+    background-color: #404040;
+    margin-left: 260px;
+}
+
+@media (max-width: 991px) {
+.tm-timeline-item {
+    margin-left: 25px;
+    }
+.tm-timeline-item {
+    margin-left: 70px;
+    }
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #333333;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: 800;
+    width: 33.33%;
+  }
+  
+  .tablink:hover {
+    background-color: #f89624;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 500px;
+  }
+  
+  #Education {background-color: #333333;}
+  #Leadership {background-color: #333333;}
+  #Publication {background-color: #333333;}
+
+
+  /* Sticky Social Bar */
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 13px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .github {
+    background: #1f1c1cf3 ;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+   }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 38px;
+  }
+
+  .grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 22px;
+    height: 163px;
+    width: 100%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: left;
+    overflow: hidden;
+  }
+  .grow:hover {
+    height: auto;
+    padding-bottom: 37px;
+    padding-right: 35px;
+  }
