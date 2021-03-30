@@ -93,7 +93,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <img style="height: 125px; width: 125px;" class="rounded-circle" src="img/developer.webp" alt="">
+                        <img class="rounded-circle skill-logo" src="img/programming-logo.png" alt="">
                         <h4>Programming Languages</h4>
                         <div class="line-dec"></div>
                         <p>Python / C / C++ / Julia / R Language / GoLang / Java / Javascript / MATLAB / Embedded C </p>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <img style="height: 125px; width: 125px;" class="rounded-circle" src="img/machine-learning-brain.jpg" alt="">
+                        <img class="rounded-circle skill-logo" src="img/deep-learning.jpg" alt="">
                         <h4>Machine Learning</h4>
                         <div class="line-dec"></div>
                         <p>Tensorflow / PyTorch / MXNet / PySpark / OpenCV / CUDA / Librosa / NLTK / SpaCy / OpenNLP / TensorRT / TFLite</p>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <img style="height: 125px; width: 125px;" class="rounded-circle" src="img/databases.jpg" alt="">
+                        <img class="rounded-circle skill-logo" src="img/database-icon.png" alt="">
                         <h4>Databases</h4>
                         <div class="line-dec"></div>
                         <p>SQL / Hadoop / Redis / MongoDB / InfluxDB / ElasticSearch / Kafka / Splunk / Datadog</p>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item">
-                        <img style="height: 125px; width: 125px;" class="rounded-circle" src="img/framework.png" alt="">
+                        <img class="rounded-circle skill-logo" src="img/framework.png" alt="">
                         <h4>Frameworks & Platforms</h4>
                         <div class="line-dec"></div>
                         <p>Docker / Kubernetes / Airflow / Tableau / Flask / Django / Amazon Web Services / Google Cloud Platform / Microsoft Azure</p>
@@ -627,7 +627,7 @@
                 <div class="col-md-6 col-md-offset-3">
                     <div class="pop">
                         <span>✖</span>
-                        <form id="contact" action="form-handler.php" method="post">
+                        <form id="contact" action="mailto:darpan.pmun@gmai1.com" method="post">
                             <div class="row">
                                 <div class="col-md-12">
                                   <fieldset>
@@ -665,8 +665,9 @@
 
                 <a href="mailto:darpan.pmun@gmail.com?subject=New%20Email%20Inquiry%20from%20website
                 &body=The%20body%20of%20the%20email">
-                Send mail with cc, bcc, subject and body</a>
+                Send Message</a>
             </div> -->
+
         </div>
     </div>
 
@@ -706,9 +707,20 @@
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="scripts/require.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+
+    // function sendEmail() {
+    //     var name = document.getElementById("name").value;
+    //     var email = document.getElementById("email").value;
+    //     var subject = document.getElementById("subject").value;
+    //     var message = document.getElementById("message").value;
+    //     const { spawn } = require("child_process");
+    //     const pythonProcess = spawn('python3',["scripts/send_email.py", name, email, subject, message]);
+    // }
+
     $(document).ready(function() {
         // navigation click actions 
         $('.scroll-link').on('click', function(event){
