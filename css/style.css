@@ -2576,3 +2576,14 @@ border-color: #f5a425;
     border-radius: 10px;
   }
 }
+
+.pubs {
+  line-height: 50px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .pubs {
+    line-height: 30px;
+  }
+}
