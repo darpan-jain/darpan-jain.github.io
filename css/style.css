@@ -2587,3 +2587,19 @@ border-color: #f5a425;
     line-height: 30px;
   }
 }
+
+.rounded-circle-cur {
+  border-radius: 50% !important;
+  height: 100px !important;
+  width: 100px !important;
+  margin-right: 2%;
+  margin-top: -1.5%;
+  float: left;
+}
+
+@media screen and (max-width: 767px) {
+  .rounded-circle-cur {
+    margin-right: 5%;
+    margin-top: -1%;
+  }
+}
