@@ -2590,10 +2590,10 @@ border-color: #f5a425;
 
 .rounded-circle-cur {
   border-radius: 50% !important;
-  height: 100px !important;
-  width: 100px !important;
+  height: 110px !important;
+  width: 110px !important;
   margin-right: 2%;
-  margin-top: -1.5%;
+  margin-top: -0.5%;
   float: left;
 }
 
