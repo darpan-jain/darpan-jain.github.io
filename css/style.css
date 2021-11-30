@@ -2155,6 +2155,28 @@ span.error {
   transform: translate(-50%, -50%);
 }
 
+/* Github Stats */
+
+/* Two image containers */
+.github-stats-column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.github-stats-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.github-stats-single {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 
 /* Work Ex and Consulting Time Line */
 
