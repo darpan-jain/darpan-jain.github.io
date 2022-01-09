@@ -1,0 +1,11 @@
+.DS_Store
+.idea/.gitignore
+.idea/darpan-jain.github.io.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+images/.DS_Store
+images/experience/.DS_Store
+*.DS_Store
