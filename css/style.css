@@ -103,6 +103,30 @@ a, a:hover {
   text-decoration: none !important;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(241, 144, 32);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightsalmon;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .unslate_co--site-inner {
   margin-bottom: 400px;
   position: relative;
