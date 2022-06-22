@@ -2305,6 +2305,25 @@ a.tm-text-white:focus {
   color: rgb(214, 109, 109);
 }
 
+.tm-text-luminblue {
+  color: rgba(0,109,240,255);
+}
+
+.tm-text-isired {
+  color: rgba(200,63,88,255);
+}
+
+.tm-text-discoveryblue {
+  color: rgba(0,100,200,255);
+}
+
+.tm-text-adsparxorange {
+  color: rgba(247,117,11,255);
+}
+
+.tm-text-ubuntoogreen {
+  color: rgba(152,199,57,255);
+}
 
 .tm-bg-dark {
   background-color: #262626;
