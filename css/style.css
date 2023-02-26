@@ -2813,7 +2813,7 @@ border-color: #f5a425;
 
 /* Conditions for phone/mobile screens */
 
-@media screen and (max-width: 300px)  {
+@media screen and (max-width: 400px)  {
   .smoothscroll {
     margin-top: 60px;
   }
