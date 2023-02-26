@@ -1811,6 +1811,8 @@ figure.dotted-bg:before {
 
 .unslate_co--footer .footer-site-logo {
   margin-bottom: 30px;
+  -webkit-animation: 7s tada infinite ease-in-out;
+  animation: 7s tada infinite ease-in-out;
 }
 
 .unslate_co--footer .footer-site-logo a {
@@ -1822,6 +1824,10 @@ figure.dotted-bg:before {
 
 .unslate_co--footer .footer-site-logo a span {
   color: #D63447;
+}
+
+.unslate_co--footer .footer-site-logo a:hover {
+  color:springgreen;
 }
 
 .unslate_co--footer .footer-site-social {
