@@ -148,7 +148,6 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: -1;
   height: 400px;
 }
 
@@ -2810,4 +2809,16 @@ border-color: #f5a425;
 .dropdown:hover .dropdown-content {
   /* display: block; */
   display: inline;
+}
+
+/* Conditions for phone/mobile screens */
+
+@media screen and (max-width: 300px)  {
+  .smoothscroll {
+    margin-top: 60px;
+  }
+
+  .unslate_co--footer {
+    z-index: auto;
+  }
 }
