@@ -314,8 +314,8 @@
 
 .bx-tada
 {
-    -webkit-animation: tada 1.5s ease infinite;
-            animation: tada 1.5s ease infinite;
+    -webkit-animation: tada 5s ease infinite;
+            animation: tada 5s ease infinite;
 }
 .bx-tada-hover:hover
 {
@@ -383,4 +383,9 @@
 {
     -webkit-animation: fade-right 1.5s infinite linear;
             animation: fade-right 1.5s infinite linear;
+}
+.bx-fade-up-right
+{
+    -webkit-animation: fade-up-right 1.5s infinite linear;
+            animation: fade-up-right 1.5s infinite linear;
 }
