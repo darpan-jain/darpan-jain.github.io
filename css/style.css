@@ -874,8 +874,8 @@ a:active {
 .mouse-wrap .mouse-label {
   top: 0;
   color: #fff;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 550;
   letter-spacing: .05rem;
   text-transform: uppercase;
 }
