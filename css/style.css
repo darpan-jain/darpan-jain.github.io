@@ -2425,19 +2425,21 @@ a.tm-text-white:focus {
 }
 
 .tm-text-luminblue {
-  color: rgba(0,109,240,255);
+  color: deepskyblue;
 }
 
 .tm-text-isired {
-  color: rgba(200,63,88,255);
+  /* color: lightcoral; */
+  color: lightsalmon;
 }
 
 .tm-text-discoveryblue {
-  color: rgba(0,100,200,255);
+  color: rgb(91, 141, 233);
 }
 
 .tm-text-adsparxorange {
-  color: rgba(247,117,11,255);
+  color: orange;
+  /* color: rgba(247,117,11,255); */
 }
 
 .tm-text-ubuntoogreen {
