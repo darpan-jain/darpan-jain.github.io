@@ -1,8 +1,10 @@
-# Greetings Visitor
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Times+new+roman&weight=900&size=25&duration=4000&pause=1500&color=389AF7&background=FFFFFF00&center=true&vCenter=true&width=500&height=60&lines=Welcome!)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Times+new+roman&weight=900&size=25&duration=3000&pause=1500&color=389AF7&background=FFFFFF00&center=true&vCenter=true&width=500&height=60&lines=You've+traveled+long+and+far+to+get+here!)](https://git.io/typing-svg)
 
 This is the repository for the source code of my personal website, giving you an insight into my professional life.
 
-You can visit the website at *https://www.darpanjain.com* ✨  which is hosted via Github pages.
+You can visit the website at *https://www.darpanjain.com* ✨  which is hosted via Github pages. (look out for an easter egg somewhere on the website 🙂)
 
 ---
 
