@@ -2,7 +2,7 @@
 
 This is the repository for the source code of my personal website, giving you an insight into my professional life.
 
-You can visit the website at *[www.darpanjain.com](https://www.darpanjain.com)* ✨  which is hosted via Github pages. (look out for an easter egg somewhere on the website 🙂)
+You can visit the website at *[darpanjain.com](https://darpanjain.com)* ✨  which is hosted via Github pages. (look out for an easter egg somewhere on the website 🙂)
 
 ---
 
