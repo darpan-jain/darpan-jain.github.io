@@ -1,6 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Times+new+roman&weight=900&size=25&duration=4000&pause=1500&color=389AF7&background=FFFFFF00&center=true&vCenter=true&width=500&height=60&lines=Welcome!)](https://git.io/typing-svg)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Times+new+roman&weight=900&size=25&duration=3000&pause=1500&color=389AF7&background=FFFFFF00&center=true&vCenter=true&width=500&height=60&lines=You've+traveled+long+and+far+to+get+here!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Times+new+roman&weight=900&size=25&duration=3000&pause=1500&color=389AF7&background=FFFFFF00&width=500&height=60&lines=Welcome!+;You've+traveled+long+and+far+to+get+here!)](https://git.io/typing-svg)
 
 This is the repository for the source code of my personal website, giving you an insight into my professional life.
 
