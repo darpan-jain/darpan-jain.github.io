@@ -148,7 +148,6 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0px;
-  z-index: -1;
   height: 400px;
 }
 
@@ -1897,15 +1896,15 @@ figure.dotted-bg:before {
 
 @-webkit-keyframes spin {
   to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 
 @keyframes spin {
   to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 
@@ -2242,7 +2241,7 @@ span.error {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #d63447;
+  background: #4298e9;
   margin-left: -100%;
   z-index: 2;
 }
@@ -2359,7 +2358,7 @@ span.error {
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  100% { transform: rotate(180deg); }
 }
 
 .tm-video-container {
@@ -2418,6 +2417,10 @@ a.tm-text-white:focus {
 
 .tm-text-yellowgreen {
   color: yellowgreen;
+}
+
+.tm-text-pixneon {
+  color: rgb(203, 221, 61);
 }
 
 .tm-text-red {
@@ -2764,7 +2767,7 @@ border-color: #f5a425;
 }
 
 .pubs {
-  line-height: 50px;
+  line-height: 40px;
   font-weight: 500;
 }
 
@@ -2810,4 +2813,16 @@ border-color: #f5a425;
 .dropdown:hover .dropdown-content {
   /* display: block; */
   display: inline;
+}
+
+/* Conditions for phone/mobile screens */
+
+@media screen and (max-width: 400px)  {
+  .smoothscroll {
+    margin-top: 60px;
+  }
+
+  .unslate_co--footer {
+    z-index: auto;
+  }
 }
