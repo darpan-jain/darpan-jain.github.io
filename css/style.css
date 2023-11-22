@@ -2729,7 +2729,7 @@ border-color: #f5a425;
  
 .i-re-menu {
 	overflow: hidden;
-  padding-left: 10%;
+  /* padding-left: 10%; */
 }
  
 .i-re-menu li {
