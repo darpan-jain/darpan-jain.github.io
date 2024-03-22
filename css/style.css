@@ -2419,6 +2419,10 @@ a.tm-text-white:focus {
   color: yellowgreen;
 }
 
+.tm-text-crorange {
+  color: rgb(224, 147, 47);
+}
+
 .tm-text-pixneon {
   color: rgb(203, 221, 61);
 }
